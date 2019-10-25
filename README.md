@@ -10,13 +10,13 @@ I ........  and it failed in production in a certain environment.
 - name of error: ....
 
 
-# Why the bug happened
+## Why the bug happened
 The environment variable .......... and that caused
 an error in production.
 
-# How I fixed it.
+## How I fixed it.
 I created the ....... by doing  X and Y.
 
-# Lesson learned.
+## Lesson learned.
 When using an ...........it's available in all the environments
 before deploying.
