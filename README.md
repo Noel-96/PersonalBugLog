@@ -3,11 +3,11 @@ When creating software, you’ll make mistakes. Sometimes they’ll be huge, som
 
 
 # Sample Bug Entry 
-## Context
+## error Context
 When working on .....................
 I ........  and it failed in production in a certain environment.
 
-- name of error: ....
+- name of error: Terminating app due to uncaught exception 'NSGenericException', reason: 'Misuse of SFSafariViewController interface. Use -initWithURL: or -initWithURL:configuration: instead.'
 
 
 ## Why the bug happened
