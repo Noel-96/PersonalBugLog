@@ -10,7 +10,7 @@ When working on implementing SFsafariview controller in my ios project i ran int
 Terminating app due to uncaught exception 'NSGenericException', reason: 'Misuse of SFSafariViewController interface. Use -initWithURL: or -initWithURL:configuration: instead.'
 
 ## Why the bug happened
-tried linking the    SFSafariViewController to a view controller int he storyboard 
+ i was linking the SFSafariViewController to a view controller in the storyboard 
 
 ## How I fixed it.
 I removed the main storyboard from the project and instantiated my ViewController from the app delegate file 
