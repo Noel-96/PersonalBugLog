@@ -30,7 +30,16 @@ then i wrote this function in the view did load
         self.present(svc, animated: true, completion: nil)
         svc.delegate = self
 ```
+# Bug Entry  #2
+## Context
+Android app crashing due to inability to instantiate image view.
 
+## Name Of Error:
+android.view.InflateException: Binary XML file line #9: Error inflating class ImageView
 
-## Lesson learned.
-none.
+## Why the bug happened
+ putting the image resources in the drawable-v24 file instead of the drawable file 
+
+## How I fixed it.
+move images to the drawable folder
+
