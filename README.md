@@ -50,7 +50,7 @@ move images to the drawable folder
 
 # Bug Entry  #3
 ## Context
-attempting to tun a kotlin project, i ran into the following error.
+attempting to run a kotlin project, i ran into the following error.
 
 ## Name Of Error:
 ```
