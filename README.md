@@ -54,7 +54,8 @@ attempting to tun a kotlin project, i ran into the following error.
 
 ## Name Of Error:
 ```
-Cannot inline bytecode built with JVM target 1.8 into bytecode that is being built with JVM target 1.6. Please specify proper '-jvm-target' option
+Cannot inline bytecode built with JVM target 1.8 into bytecode that is being built with JVM target 
+1.6. Please specify proper '-jvm-target' option
 ```
 
 ## Why the bug happened
