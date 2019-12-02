@@ -71,3 +71,21 @@ I  had to add following in app build.gradle file to make it work.
      }
  }
 ```
+
+# Bug Entry  #4
+## Context
+kotlin webview not working on some phones but working on others.
+
+## Name Of Error:
+None webview just shows a blank page
+
+## Why the bug happened
+....
+
+## How I fixed it.
+I  had to add following in android manifest file to make it work.
+```
+  <application
+        android:usesCleartextTraffic="true"
+       >   </application>
+```
