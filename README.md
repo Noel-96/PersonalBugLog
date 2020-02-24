@@ -89,3 +89,23 @@ I  had to add following in android manifest file to make it work.
         android:usesCleartextTraffic="true"
        >   </application>
 ```
+
+
+# Bug Entry  #5
+## Context
+IOS app not building 
+
+## Name Of Error:
+dyld: Library not loaded:
+
+## Why the bug happened
+i believe its because oi was a free developer profile and there are some limitations with the pods as regards to that 
+
+## How I fixed it.
+commented out the "use_framworks!" line in my pod file
+```
+ # Comment the next line if you don't want to use dynamic frameworks
+  #use_frameworks!
+
+```
+
