@@ -99,7 +99,7 @@ IOS app not building
 dyld: Library not loaded:
 
 ## Why the bug happened
-i believe its because oi was a free developer profile and there are some limitations with the pods as regards to that 
+i believe its because i was on  a free developer profile and there are some limitations with the pods as regards to that 
 
 ## How I fixed it.
 commented out the "use_framworks!" line in my pod file
